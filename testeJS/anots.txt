@@ -1,0 +1,9 @@
+
+
+#curl http://localhost:3000/api/produto -X POST -H "Content-type: application/json" -d @testeJS/produto01.json -v ;
+
+#curl http://localhost:3000/api/produto/90 -X DELETE ; echo
+
+#curl http://localhost:3000/api/produto/90 -X GET ; echo
+
+curl http://localhost:3000/api/produto/10 -X PUT -H "Content-type: application/json"  -d @produto01.json -v ;
