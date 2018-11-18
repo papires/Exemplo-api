@@ -1,7 +1,7 @@
 # api-produtos-mysql
 # ammovarejo-api
 
-## Padrão do json para envio de dados do produto:
+### Padrão do json para envio de dados do produto:
 {
 "titulo" : "Produto 1 um...",
 "valorReal" : 10.00,
