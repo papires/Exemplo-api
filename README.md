@@ -23,3 +23,8 @@ curl http://localhost:3000/api/produto/90 -X GET ; echo
 
 ### Exemplo de como alterar informações de um produto.
 curl http://localhost:3000/api/produto/10 -X PUT -H "Content-type: application/json"  -d @produto01.json -v ; echo
+
+### Exemplo de pegar a lista de produtos.
+curl http://localhost:3000/api/listaprodutos -X GET -H "Content-type: application/json" | json_pp 
+
+
